@@ -1,6 +1,6 @@
 # Python_Starter_Learning
 
-This project shows the learning path for Python learning based on Dave Gray and freecodecamp.org.
+This project shows the learning path for Python learning based on Dave Gray and FreeCodeCamp.org.
 
 ## Tutorial Source
 
@@ -15,7 +15,7 @@ This repository contains code examples, exercises, and notes from following alon
 
 There is no collaboration or agreement, but I am a huge fan of many of the tutorials found at:
 - [FreeCodeCamp.org YouTube Channel](https://www.youtube.com/@freecodecamp)
-- [Dave Gray Teaches Code YouTube Channel](https://www.youtube.com/davegrayteachescode)
+- [Dave Gray Teaches Code YouTube Channel](https://www.youtube.com/@DaveGrayTeachesCode)
 
 ## Getting Started
 
