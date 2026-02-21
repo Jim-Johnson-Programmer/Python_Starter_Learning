@@ -1,8 +1,10 @@
 # 4-user-input
 # Python learning exercise
+response = input("Please enter a number")
 
-def main():
-    print("Hello from 4-user-input!")
+print(type(response))
+print(response)
 
-if __name__ == "__main__":
-    main()
+number = int(response)
+total = number + 1
+print(total)
