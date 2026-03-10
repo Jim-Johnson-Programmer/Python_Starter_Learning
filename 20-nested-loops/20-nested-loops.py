@@ -1,8 +1,6 @@
 # 20-nested-loops
 # Python learning exercise
 
-def main():
-    print("Hello from 20-nested-loops!")
-
-if __name__ == "__main__":
-    main()
+for outer_ctr in range(1, 10):
+    for inner_ctr in range(1, 10):
+        print(f"{outer_ctr} x {inner_ctr} = {outer_ctr * inner_ctr}")

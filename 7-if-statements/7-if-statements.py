@@ -87,3 +87,38 @@ else:
 
 #In some cases, we check for what must fail and nothing else. This will be mentioned later in this course
 #when we talk about functions.
+
+print("\n" + "="*50)
+print("NESTED IF STATEMENTS EXAMPLES")
+print("="*50)
+
+# Example 1: Weather-based clothing recommendations
+print("\n--- Example 1: Weather Clothing Recommendations ---")
+temperature = int(input("What's the temperature in Fahrenheit? "))
+is_raining = input("Is it raining? (yes/no): ").lower() == "yes"
+
+if temperature > 70:
+    print("It's warm outside!")
+    if is_raining:
+        print("  → Wear light clothes and bring an umbrella")
+    else:
+        print("  → Wear light clothes, maybe shorts and a t-shirt")
+        if temperature > 90:
+            print("  → It's very hot! Bring water and wear sunscreen")
+else:
+    print("It's cool/cold outside!")
+    if temperature > 50:
+        print("  → Wear a light jacket")
+        if is_raining:
+            print("  → And definitely bring an umbrella or raincoat")
+    else:
+        print("  → Wear warm clothes")
+        if temperature < 32:
+            print("  → It's freezing! Wear multiple layers, gloves, and a hat")
+            if is_raining:
+                print("  → Actually, if it's raining below 32°F, it might be snow!")
+
+print("\n--- Example 2: Student Grade Classification ---")
+score = int(input("Enter your test score (0-100): "))
+
+
